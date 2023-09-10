@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Rescisão</title>
+    <link rel="stylesheet" href="Pag1.css">
+</head>
+<body id="corpoResci">
+    <h1 id="Tit">Vamos calcular sua rescisão</h1>
+    
+    <form>
+        <label id="Sal" for="salario">Salário:</label>
+        <input type="number" id="salario" name="salario" required><br>
+        
+        <label id="DS" for="dias-servico">Tempo de Serviço (em dias):</label>
+        <input type="number" id="dias-servico" name="dias-servico" required><br>
+        
+        <label id="VE" for="valor-hora-extra">Valor da Hora Extra:</label>
+        <input type="number" id="valor-hora-extra" name="valor-hora-extra" required><br>
+        
+        <label id="HE" for="horas-extras">Horas Extras Trabalhadas:</label>
+        <input type="number" id="horas-extras" name="horas-extras" required><br>
+
+        <button type="button" id="calcular">Calcular Rescisão</button>
+    </form>
+
+    <p class="resultado" id="resultado">Sua Rescisão: R$ </p>
+
+    <script src="calcResci.js"></script>
+</body>
+</html>

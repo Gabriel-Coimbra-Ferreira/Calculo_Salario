@@ -5,10 +5,10 @@ document.querySelector(".Botaoliq").addEventListener("click", function() {
 
 
 document.querySelector(".BotaoFerias").addEventListener("click", function() {
-    window.location.href = "CalcFer.html";
+    window.location.href = "CalcFerias.html";
 });
 
 
 document.querySelector(".BotaoReci").addEventListener("click", function() {
-    window.location.href = "CalcRec.html";
+    window.location.href = "calcResci.html";
 });
